@@ -8,7 +8,7 @@ from gidgethub import aiohttp as gh_aiohttp
 
 routes = web.RouteTableDef()
 
-router = routing.Router())
+router = routing.Router()
 
 @routes.post("/")
 
